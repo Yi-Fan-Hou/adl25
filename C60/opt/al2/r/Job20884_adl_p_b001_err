@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/mlatom/projects/yaohuang/ADL/C60/opt/al2/r/opt.py", line 4, in <module>
+    mol = ml.data.molecule.load('../c66h10_react_gaussian.log',format='gaussian')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mlatom/software/mlatom_xacs/mlatom/data.py", line 152, in load_return_molecule
+    newmol = gaussian_interface.parse_gaussian_output(filename=filename)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mlatom/software/mlatom_xacs/mlatom/interfaces/gaussian_interface.py", line 458, in parse_gaussian_output
+    with open(filename, 'r') as ff:
+         ^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../c66h10_react_gaussian.log'
