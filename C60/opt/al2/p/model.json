@@ -1,8 +1,0 @@
-{
-    "type": "ml_model",
-    "ml_model_type": "mlatom.interfaces.torchani_interface.ani",
-    "kwargs": {
-        "model_file": "/mlatom/projects/yaohuang/ADL/C60/opt/al2/AL_main_model_C60_butadiene.npz"
-    },
-    "nthreads": 0
-}

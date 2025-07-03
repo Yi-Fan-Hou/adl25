@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/mlatom/projects/yaohuang/ADL/C60/opt/al2/r/opt.py", line 22, in <module>
-    print(final_mol.get_xyz_string())
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/mlatom/software/mlatom_xacs/mlatom/data.py", line 540, in get_xyz_string
-    xyz_string += '%-3s %25.13f %25.13f %25.13f\n' % (atom.element_symbol,
-                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-TypeError: must be real number, not NoneType
